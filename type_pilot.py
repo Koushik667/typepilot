@@ -66,9 +66,6 @@ class WebResearchAssistant:
                         # Cleanup excessive whitespace
                         text = ' '.join(text.split())
 
-                        print("text is")
-                        print(text[0:])
-
                         return text
                     else:
                         print(f"Failed to fetch {url}: {response.status}")
